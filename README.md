@@ -5,6 +5,7 @@ Kan exempelvis användas för att testa funktionalitet eller göra kontroller av
 ### ANVÄNDNING
 * Lägg filerna "casecreator.py, FGSBuddyLight.py och Arendehantering.xsd" i en tom katalog.
 * Öppna filen casecreator.py om du vill ändra några inställningar. Variabeln "includefiles" (True/False) anger om skriptet ska skapa filer till FGS-paketet. I "filformatlista" anges vilka filformat som ska genereras i paketet (.pdf, .txt och/eller .docx). Variabeln "antalarenden" anger hur många ärenden paketet ska innehålla medan "antalhandlingar" anger hur många handlingar som ska skapas i respektive ärende.
+* Om man vill ändra Arkivbildare och producerande system etc för Sip.xml görs detta i FGSBuddyLight.py i funktionen "def inputValues".
 * När inställningarna är färdiga kör "casecreator.py" för att generera SIP-paketet.
 * Om nytt paket ska skapas måste katalogen rensas från alla filer/mappar utom "casecreator.py, FGSBuddyLight.py och Arendehantering.xsd"
 
